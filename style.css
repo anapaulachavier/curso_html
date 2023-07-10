@@ -1,4 +1,14 @@
-header{
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
     background-color: rgba(185, 47, 146, 0.49);
     color: #660138;
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    font-family: 'Sacramento', cursive;
+    font-size: 300%;
 }
