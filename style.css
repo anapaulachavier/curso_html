@@ -8,7 +8,158 @@
     color: #660138;
     display: flex;
     justify-content: center;
-    padding: 24px;
+    padding: 15px;
     font-family: 'Sacramento', cursive;
     font-size: 300%;
+}
+
+
+/*configuração da matriz */
+.conteudo{
+   /* max-width: 1400px;*/
+    margin: 0 auto;
+    padding-top: 80px;
+    display: grid;
+    font-family: 'Sacramento', cursive;
+    font-size: 150%;
+    color: #660138;
+    grid-template-areas: 
+    "descricao yoga viagem programar"
+    "descricao mat eng avent";
+}
+
+/*definição das células, configuração das bordas */
+
+.descricao{
+    width: 400px;
+    height: 500px;
+    padding-left: 70px;
+    grid-area: "descricao";
+    grid-row: descricao;
+}
+
+.yoga{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(252, 115, 255, 0.4);
+    border-radius: 50%;
+    grid-area: "yoga";
+}
+
+.viagem{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(252, 115, 255, 0.4);
+    border-radius: 50%;
+    grid-area: "viagem";
+}
+
+.programar{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(252, 115, 255, 0.4);
+    border-radius: 50%;
+    grid-area: "programar";
+}
+
+.mat{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(252, 115, 255, 0.4);
+    border-radius: 50%;
+    grid-area: "mat";
+}
+
+.eng{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(252, 115, 255, 0.4);
+    border-radius: 50%;
+    grid-area: "eng";
+}
+
+.avent{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(252, 115, 255, 0.4);
+    border-radius: 50%;
+    grid-area: "avent";
+}
+/* imagens */
+.fotos-ana{
+    width: 80%;
+    border-radius: 50%;
+}
+
+.yoga-img{
+    width: 70%;
+    padding-left: 32px;
+    padding-top:30px;
+}
+
+.viagem-img{
+    width: 70%;
+    padding-left: 32px;
+    padding-top:30px;
+}
+
+.programar-img{
+    width: 70%;
+    padding-left: 32px;
+    padding-top:30px;
+}
+
+.mat-img{
+    width: 70%;
+    padding-left: 32px;
+    padding-top:30px;
+}
+
+.eng-img{
+    width: 70%;
+    padding-left: 32px;
+    padding-top:30px;
+}
+
+.avent-img{
+    width: 70%;
+    padding-left: 32px;
+    padding-top:30px;
+}
+
+/*textos*/
+
+.ana{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.yogini{
+    padding-left: 70px;
+    padding-top: 10px;
+}
+
+.traveller{
+    padding-left: 60px;
+    padding-top: 10px;
+}
+
+.programmer{
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.teacher{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.engineer{
+    padding-left: 0px;
+    padding-top: 10px;
+}
+
+.explorer{
+    padding-left: 60px;
+    padding-top: 10px;
 }
